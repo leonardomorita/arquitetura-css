@@ -8,8 +8,8 @@
 
 @media screen and (min-width: 1280px) {
     .receitas {
+        padding-left: 2rem;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
     }
 }
