@@ -1,7 +1,15 @@
 .menu__item {
     list-style: none;
+    padding-bottom: 1rem; 
 }
 
 .menu__item:last-child .menu__link {
     margin-right: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__item {
+        margin-right: 1rem;
+        padding-bottom: 0;
+    }
 }
